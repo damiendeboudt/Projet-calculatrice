@@ -15,22 +15,27 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: teal;
+    background-image: url("R.jfif");
     width: 40em;
-    height: 38em;
+    height: 40em;
     padding: 1em 1em;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 10px 10px 5px black;
+
     border-radius: 10%;
     margin-top: 2em;
+    border: 6px solid white;
 }
 #result{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 35em;
     height: 7em;
-    background-color: beige;
+    background-color: #bbbbbb;
     align-items: center;
     border-radius: 10%;
+    font-family: "Roboto Light";
+    font-weight: bold;
+    border: 3px solid black;
 }
 button{
     display: flex;
@@ -43,5 +48,11 @@ button{
     height: 3em;
     border-radius: 10%;
     margin: 0.3em;
+    box-shadow: 5px 5px 5px #000000;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e1e1e1;
+    box-shadow: -1px -1px 3px white;
 }
 
